@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload file with multer</title>
+    <link rel="shortcut icon" href="ico/png-transparent-npm-node-js-computer-icons-computer-software-installation-others-text-rectangle-logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <h1 class="text-center">Carga de archivo con Multer</h1>
+    <!-- Contenido -->
+    <div class="card mx-auto w-75">
+        <div class="card-body">
+            <!-- Mensaje de alerta -->
+            <div id="alert-message" class="my-2 mx-auto"></div>
+            <!-- Formulario de carga -->
+            <form id="upload-file" enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="form-file" class="form-label">Selecciona archivo</label>
+                    <input class="form-control" type="file" id="form-file" name="image">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Carga de archivo</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js" ></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
