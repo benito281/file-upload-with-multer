@@ -4,13 +4,13 @@
   "description": "Upload image in nodejs",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js --exec babel-node --ignore src/public"
+    "dev": "nodemon src/index.js --exec babel-node --ignore src/public",
+    "npm": "src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
     "express": "^4.17.1",
     "multer": "^1.4.4",
     "uuid": "^8.3.2"
